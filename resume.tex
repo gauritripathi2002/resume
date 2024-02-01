@@ -1,9 +1,3 @@
-%-------------------------
-% Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
 
 \documentclass[letterpaper,11pt]{article}
 
@@ -116,8 +110,8 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\justify \begin{itemize} \vspace{-4pt}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-1pt}}
+\newcommand{\resumeItemListStart}{\justify \begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -132,112 +126,100 @@
 % \end{tabular*}
 
 \begin{center}
-    {\Huge \scshape Jai Kumar Dewani} \\ \vspace{1pt}
+    {\Huge \scshape gauri tripathi} \\ \vspace{1pt}
     % 123 Street Name, Town, State 12345 \\ 
     \vspace{5pt}
-    \small \raisebox{-0.1\height}\faPhone\ 9340422023 ~ 
-    \raisebox{-0.2\height}\faEnvelope\ \href{mailto:jai.dewani.99@gmail.com}{ jai.dewani.99@gmail.com} ~ 
-    \raisebox{-0.2\height}\faLinkedin\ \href{https://www.linkedin.com/in/jai-dewani/}{ linkedin.com/in/jai-dewani}  ~
-    \raisebox{-0.2\height}\faGithub\ \href{https://github.com/jai-dewani}{ github.com/jai-dewani}
+    % \small \raisebox{-0.1\height}\faPhone\ 9871626616 ~ 
+    \raisebox{-0.2\height}\faEnvelope\ \href{mailto:gauritripathi2002@gmail.com}{ gauritripathi2002@gmail.com} ~ 
+    \raisebox{-0.2\height}\faLinkedin\ \href{https://www.linkedin.com/in/rohit-tiwari-907387204/}{LinkedIn} ~
+    \raisebox{-0.2\height}\faGithub\ \href{https://github.com/gauritripathi2002}{Github} ~ 
     \vspace{-8pt}
 \end{center}
 
-
 %-----------EDUCATION-----------
+\section{Education}
+   \resumeSubHeadingListStart
+    \resumeSubheading
+      {SRM University, KTR }{Sept '20 -- June'24}
+      {B.Tech in Computer Science Engineering}{9.02 CGPA}
+  \resumeSubHeadingListEnd
+%-----------EDUCATION-----------
+\section{Research Paper}
+   \resumeSubHeadingListStart
+    \resumeSubheading
+      {{Enhanced Medical Decision Support using GPT} $|$ \href{https://drive.google.com/file/d/1MSTAiBIsHr9tp5k_2X68YMkhixVj0kRI/view} {Link}}{Jul '23 -- Nov'23}
+      {FCOM-FINTECH Conference}{Dept. of Computing Technologies, SRM KTR}
+  \resumeSubHeadingListEnd
+
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
-      {Carl Zeiss}{July '21 -- Present}
-      {Software Engineer}{Bengaluru, Karnataka, India}
-      \vspace{-9pt}
+      {{Surya Consultants}\href{https://suryaconsultants.com/}}{Jun '23 -- Dec'23}
+      {Data Scientist - Intern}{}
+      \vspace{-7pt}
       \resumeItemListStart
-        \resumeItem{Led the development of the critical Chart Viewer segment, successfully driving it to the market for the product release}
-        \resumeItem{Collaborated with the team to optimize Chart Viewer usage, ensuring exposure and utilization of only atomic operations}
-        \resumeItem{Optimized workflows by restructuring into asynchronous tasks and notifications for improved efficiency}
-        % \resumeItem{Resolved bugs related to preview area and rendering of Visual Acuity and Chart Layouts in Chart Viewer, built on WPF}
-        \resumeItem{Introduced new features based on customer feedback, including the addition of black masking and enhancements to existing functionalities.}
-        \resumeItem{Enhanced team agility through streamlined development by introducing hardware behavior mocking, reducing device dependency for more efficient testing and debugging}
-      \resumeItemListEnd
+          \resumeItem{Developed and implemented a dynamic client data analysis system using Python and SQL, leading to a 30 percent improvement in data processing efficiency.}
+          \resumeItem{Employed ML models like Logistic Regression for predictive modeling and trend analysis, resulting in a better analysis accurate market forecasts for clients.}
+          \resumeItem{Collaborated in the creation of an interactive dashboard using Plotly, Seaborn for real-time data visualization, enhancing client presentations and decision-making processes.}
+          \resumeItem{Conducted comprehensive data cleansing using SpacyNLP, ensuring a increase in data readability.}
 
-    \vspace{3pt}
-    
-    \resumeSubheading
-      {Carl Zeiss}{January '21 -- June '21}
-      {FullStack Intern}{Bengaluru, Karnataka, India}
-      \vspace{-9pt}
-      \resumeItemListStart
-        \resumeItem{Coordinated with cross-functional teams to define and integrate API requirements seamlessly}
-        \resumeItem{Designed IPC channels and deployed gRPC servers to reduce coupling for enhanced communication among services}
-        \resumeItem{Utilized NUnit and Fluent Assertions to develop new unit tests, enhancing the overall development cycle}
-      \resumeItemListEnd
+     \resumeItemListEnd
+
     
   \resumeSubHeadingListEnd
-
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {International Institute of Information Technology, Naya Raipur}{August '17 -- June '21}
-      {Bachelor of Technology in Computer Science}{Naya Raipur, Chattisghar India}
-  \resumeSubHeadingListEnd
-
 
 %-----------PROJECTS-----------
 \section{Projects}
-    \vspace{-2pt}
+    \vspace{-5pt}
     \resumeSubHeadingListStart
         \resumeProjectHeading
-            {\textbf{VISUCORE 500} $|$ \emph{C\#, Angular}  $|$ \href{https://www.zeiss.com/vision-care/int/eye-care-professionals/equipment/refraction/combined-refraction-unit.html}{Zeiss VISUCORE 500}}{Jan 2021 - Current}
+            {\textbf{Enhanced Medical Decision Support using GPT} $|$ \emph{Transformers, Bitsandbytes, Torch} $|$ \href{https://github.com/gauritripathi2002/DoctorLLM}{Github}}{}
             \resumeItemListStart
-                \resumeItem{Enhanced ChartViewer, a visual acuity testing desktop app}
-                \resumeItem{Collaborated with German team to enhance and transfer Refraction module}
-                \resumeItem{Decomposed monolithic project into 3 gRPC-based services to minimize coupling}
-                % \resumeItem{}
-                % \resumeItem{Mastered end-to-end product life cycle and Agile methodologies}
-            \resumeItemListEnd
+                \resumeItem{Advanced AI Model: Built on Mistral-7B, a powerful model that can generate thoughtful and accurate medical advice.}
+                \resumeItem{Quantized for Efficiency: Future enhancements include quantizing the model to 2, 4, and 8 bits for task-specific use cases, optimizing performance without compromising accuracy.}
+                \resumeItem{High-Quality Interaction: Ensures factual and nuanced communication, prioritizing user well-being and understanding.}
+                \resumeItem{Logical / IQ Tasks: Perform roleplays, and chain-of-thought reasoning.}
+          \resumeItemListEnd
         \resumeProjectHeading
-            {\textbf{VISUSCREEN 100/500} $|$ \emph{C\#, HTML, CSS, JS}  $|$ \href{https://www.zeiss.com/vision-care/int/eye-care-professionals/equipment/refraction/subjective-refraction-unit.html}{Zeiss VISUSCREEN 100/500}}{June 2023 - August 2023}
+            {\textbf{COVID-19 Data Analysis Project} $|$ \emph{SQL, Apache Superset} $|$ \href{https://github.com/gauritripathi2002/Global-COVID19-Data-Insights}{Github}}{}
             \resumeItemListStart
-                \resumeItem{Implemented a lock and release mechanism to ensure a maximum of one connection to critical communication channels, ensuring system stability}
-                \resumeItem{Produced comprehensive system software integration documentation to facilitate the seamless release of software changes into the market}
-                \resumeItem{Mastered end-to-end product life cycle and Agile methodologies}
-            \resumeItemListEnd
+                \resumeItem{Comprehensive analysis of COVID-19 data, focusing on various aspects like death rates, infection rates, and vaccination progress across different countries}
+                \resumeItem{Apache Superset Integration: these queries will be implemented on SQL Apache Superset to enhance data visualization and dashboarding capabilities}
+            \resumeItemListEnd  
         \resumeProjectHeading
-            {\textbf{FunMark} $|$ \emph{Python} $|$ \href{https://github.com/jai-dewani/fun-mark}{GitHub}}{May 2020} 
+            {\textbf{Starbucks Nutritional Analysis} $|$ \emph{Pandas, Matplotlib, Seaborn} $|$ \href{https://github.com/gauritripathi2002/StarbucksNutriProfiler}{GitHub}}{} 
             \resumeItemListStart
-                \resumeItem{Developed a wrapper library for bench-marking different functions and allowing creation of graphical comparisons}
-                \resumeItem{Released on PyPi package manager to be easily accessible with pip with currently over 2K downloads}
-                \resumeItem{Wrote a blog on how to utilise the library efficiently -  \href{https://jai-dewani.github.io/blogs/fun-mark/}{jai-dewani.github.io/blogs/fun-mark/}}
-            \resumeItemListEnd 
+                \resumeItem{Data Loading, Preprocessing, and Exploration: using Pandas, loading and exploring the Starbucks dataset. Conducted thorough initial data analysis and optimized dataset}
+                \resumeItem{Statistical Analysis and Data Cleaning: extracting key insights like mean, standard deviation, and quartiles}
+                \resumeItem{Matplotlib and Seaborn for creating insightful visualizations including scatter plots, bar plots, and histograms to elucidate relationships between various nutritional elements.}
+          \resumeItemListEnd          
     \resumeSubHeadingListEnd
 
-
-%
+ 
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
-    {\item{
-     \textbf{Languages \& Frameworks}{: C\#, .NET, Angular, JavaScript, Python} \\
+    \small{\item{
+     \textbf{Languages}{: Python, SQL} \\
      \vspace{1pt}
-     \textbf{Developer Tools}{: Azure, Git, GitHub, CI/CD} \\
+     \textbf{Technologies}{: Anaconda, Apache, Linux, Jupyter, MySQL, Azure, WordPress} \\
      \vspace{1pt}
-     \textbf{Technologies}{: ASP.NET, WPF, gRPC, Node.js, Angular, React} \\
+     \textbf{Developer Tools}{: Git, Docker, Kubernetes, VS Code, AWS Sagemaker, AWS EC2} \\
+     \vspace{1pt}
+     \textbf{Libraries}{: PyTorch, Numpy, Pandas, Scikit-Learn, Seaborn, FastAPI, Matplotlib} \\
+     \vspace{1pt}
+     \textbf{MLOps}{: WeightsBiases} \\
     }}
  \end{itemize}
- \vspace{-16pt}
-
-
 
 %-----------INVOLVEMENT---------------
-\section{ACADEMIC ACHIEVEMENTS \& EXTRA-CURRICULAR}
+\section{EXTRA-CURRICULAR}
 
 \begin{itemize}[leftmargin=0.2in]
-  \achievementItem{\textbf{Mentored and Judged over 50+ teams} in various hackathons like HackCBS 4.0, HacckOn 2.0 and DotSlash 4.0}
-  \achievementItem{\textbf{Co-founded}  the  first  technical  club  at  IIIT-NR,  organized  various  events, talks and hackathons to  promote competitive programming and development while improve the coding environment of the Institute.}
-  \achievementItem{Ranked \textbf{1127\textsuperscript{th}} globally and \textbf{115\textsuperscript{th}} in India in Google HashCode, out of 10724 teams}
-  \achievementItem{Qualified ACM-ICPC 2020 in Kanpur(\textbf{rank 63}) and Gwalior regions}
-  \achievementItem{Qualified ACM-ICPC 2019 in Kharagpur(\textbf{rank 81}) and Amritapuri(\textbf{rank 37}) regions.}
-\end{itemize}
 
+  \achievementItem{AMVMUN 2018, 2019: Special Mention in the AMVMUN for the All India Political Party Meet.}
+  \achievementItem{Sub Editor Photographer: Held the post for the School Photography Committee}
+
+\end{itemize}
 
 \end{document}
